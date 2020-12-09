@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#614EA7</color>          <!-- 기본 칼라 : #3F51B5 -->
+    <color name="colorPrimaryDark">#614EA7</color>      <!-- 기본 칼라 : #303F9F -->
+    <color name="colorAccent">#FF4081</color>
+</resources>
+
+
+    <!-- 분홍 다홍 사이 #D02062 -->
+    <!-- 연분홍 #EE82EE -->
+    <!-- 코랄 #FF7F50 -->
+    <!-- 라이트코랄 #F08080 -->
+    <!-- 마젠타 FF00FF -->
+    <!-- 스카이블루 #87CEFA -->
+    <!-- 진한 보라 #572174 -->
+<!-- 보라 #601FAF -->

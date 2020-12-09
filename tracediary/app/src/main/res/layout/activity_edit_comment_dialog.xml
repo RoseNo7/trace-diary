@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="330dp"
+    android:layout_height="180dp"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    tools:context="com.graduationwork.tracediary.DialogActivity.EditCommentDialog">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:id="@+id/text_comment"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_margin="10dp"
+            android:text="@string/comment_dialog"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/text_comment_explain"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/comment_explain"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/edit_comment"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_margin="10dp"
+
+        android:background="@drawable/comment_edittext"
+        android:hint="@string/comment_hint"
+        android:longClickable="true"
+        android:maxLength="15"
+        android:textCursorDrawable="@android:color/black"
+        android:textColor="@android:color/black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_comment_cancel"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+
+            android:text="@string/cancle"
+            android:textSize="15sp"
+            android:textColor="@color/colorPrimary"
+            android:background="@android:color/white"/>
+
+        <Button
+            android:id="@+id/btn_comment_commit"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+
+            android:text="@string/commit"
+            android:textSize="15sp"
+            android:textColor="@color/colorPrimary"
+            android:background="@android:color/white"/>
+    </LinearLayout>
+
+</LinearLayout>

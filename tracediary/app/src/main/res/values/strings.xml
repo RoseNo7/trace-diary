@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">tracediary</string>
+    <string name="toolbar_name">TraceDiary</string>
+    <string name="toolbar_setting_name">Setting</string>
+
+    <!-- Dialog Activity -->
+    <string name="comment_dialog">Comment</string>
+    <string name="comment_explain">설명 : Maker에 Comment를 적어 중요 내용을 저장하세요.</string>
+    <string name="comment_hint">15자 이내로 적어주세요.</string>
+
+    <string name="insert_marker">Google Map의 Maker(표식)를 추가하시겠습니까?</string>
+    <string name="delete_marker">Google Map의 Maker(표식)를 삭제하시겠습니까?</string>
+
+    <string name="commit">확인</string>
+    <string name="add">추가</string>
+    <string name="delete">삭제</string>
+    <string name="cancle">취소</string>
+
+    <!-- Tracelist Activity, LogLocation Activity -->
+    <string name="show_log">로그 데이터 보기</string>
+    <string name="time">시간</string>
+    <string name="place">장소</string>
+
+    <!-- Setting Activity -->
+    <string name="alarm">알람 ON/OFF</string>
+    <string name="radius">반경 설정</string>
+    <string name="radius_help">반경은 100m에서 150m를 권장합니다.</string>
+    <string name="radius_hint">10 = 10m를 의미</string>
+    <string name="set_alarm">현재 알람 상황 : </string>
+    <string name="set_radius">현재 반경 범위 (m) :</string>
+
+    <!-- Recording Activity -->
+    <string name="record">녹음</string>
+</resources>
